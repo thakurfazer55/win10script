@@ -33,6 +33,7 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	#"InstallAdobe",
 	"Install7Zip",
+	"InstallVLC",
 	#"InstallNotepadplusplus",
 	#"InstallMediaPlayerClassic",
 
@@ -214,6 +215,11 @@ Function InstallJava {
 Function Install7Zip {
 	Write-Output "Installing 7-Zip"
 	choco install 7zip -y
+}
+
+Function InstallVLC {
+	Write-Output "Installing VLC"
+	choco install vlc -y
 }
 
 Function InstallNotepadplusplus {
