@@ -3,7 +3,7 @@ This is the Ultimate Windows 10 Script from a creation from multiple debloat scr
 
 # Installation command [Run Powershell as administrator]
 
-- powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJana')"
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJana')"
 
 
 ## My Additions
