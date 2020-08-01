@@ -34,6 +34,7 @@ $tweaks = @(
 	#"InstallAdobe",
 	"Install7Zip",
 	"InstallVLC",
+  "InstallFirefox",
 	#"InstallNotepadplusplus",
 	#"InstallMediaPlayerClassic",
 
@@ -220,6 +221,11 @@ Function Install7Zip {
 Function InstallVLC {
 	Write-Output "Installing VLC"
 	choco install vlc -y
+}
+
+Function InstallFirefox {
+	Write-Output "Installing Firefox"
+	choco install firefox:dog: -y
 }
 
 Function InstallNotepadplusplus {
